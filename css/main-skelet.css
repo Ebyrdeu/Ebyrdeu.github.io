@@ -12,11 +12,12 @@ html, body {
     width: 45px;
     height: 45px;
 }
+
 .shadow{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .active{
-    color: lightcyan !important;
+    color: rgb(4, 115, 219) !important;
 }
 .header {
     padding: 120px;
@@ -30,14 +31,14 @@ html, body {
 }
 .dropdown-menu {
     background-color: #222;
-    border:whitesmoke 2px solid;
+    border: #333 2px solid;
 }
 .dropdown-item {
     color: white;
 }
 .dropdown-item:hover{
     color: #000;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 /* Row */
 .container_row {
