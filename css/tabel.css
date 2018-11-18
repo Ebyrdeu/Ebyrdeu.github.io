@@ -1,0 +1,36 @@
+caption {
+    text-align: center;
+}
+td, table {
+    color: white;
+    border: 1px solid silver;
+}
+/* colone */
+#colone {
+    background-color: red;
+}
+#colotwo {
+    background-color: white;
+}
+#colothree {
+    background-color: green;
+}
+#colofive {
+    background-color: blue;
+}
+/* Table Uppgift Fonts */
+.black {
+    color: black;
+}
+.tables {
+    margin: 10px auto;
+    background-color: white;
+}
+.bg{
+    background-color: white;
+}
+#text_font{
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+}

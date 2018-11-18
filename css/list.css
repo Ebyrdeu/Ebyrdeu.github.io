@@ -1,0 +1,39 @@
+ul {
+    list-style: square;
+    color: rgb(158, 121, 18);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ol {
+    list-style: lower-greek;
+    color: rgb(13, 156, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+dd {
+    list-style: upper-latin;
+    color: rgb(10, 140, 145);
+    font-family: 'Courier New', Courier, monospace;
+}
+dt{
+    list-style: upper-latin;
+    color: rgb(145, 10, 105);
+    font-family: 'Courier New', Courier, monospace;
+}
+.list_img {
+    height: 100px !important;
+    width: 200px !important;
+}
+.list_img_green {
+    text-decoration: none;
+    color: rgb(13, 156, 44) 
+}
+.list_img_orange {
+    text-decoration: none;
+    color: rgb(158, 121, 18);
+}
+.list_img_perple{
+    color: rgb(145, 10, 105);
+}
+.box_main{
+    padding: 5px 0;
+    margin-left: 600px;
+}

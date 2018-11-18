@@ -1,0 +1,48 @@
+.ddr {
+    margin: auto !important;
+    max-width: 800px;
+}
+.vid {
+    border: solid 1.5px #333;
+    max-width: 800px;
+    margin-left: auto !important;
+}
+.blue {
+    color: skyblue;
+    text-align: center;
+}
+.bluee {
+    color: skyblue;
+}
+.omimg {
+    border: solid 1.5px #333;
+}
+.big {
+    width: 805px !important;
+}
+.navi{
+    float: left;
+    padding: 1px ;
+    margin: 5px ;
+    border: 1px solid white;
+    list-style: none;
+    max-width: 150px;
+}
+.bl{
+    border-left: solid #444 2px;
+}
+.btn_dw{
+    background: linear-gradient(120deg,#360033,#0b8793);
+    margin: 5px;
+}
+blockquote {
+    padding: 0 8px;
+    margin-left: 5px;
+    background-color: #111
+}
+li{
+    color: gold;
+}
+p{
+    color: white;
+}

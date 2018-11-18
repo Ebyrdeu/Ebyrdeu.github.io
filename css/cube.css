@@ -1,0 +1,48 @@
+.red_cube{
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    margin: 100px 300px;
+    position: relative;
+}
+.green_cube{
+    width: 150px;
+    height: 150px;
+    background-color: lime;
+    position: relative;
+    margin: -150px 390px;
+
+}
+.yellow_cube{
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    margin: 100px 500px;
+    
+
+}
+
+
+.middle{
+    width: 800px;
+    margin: auto !important;
+    
+}
+
+.yellow_cube:hover{
+    opacity: 0.8;
+    background-color:transparent;
+
+}
+
+.green_cube:hover{
+    opacity: 0.8;
+    
+
+}
+
+.red_cube:hover{
+    opacity: 0.8;
+    background-color: blue;
+    z-index: 1;
+}

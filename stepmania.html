@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Sum Website">
+        <meta name="author" content="Maxim Khnykin">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <link rel="shortcut icon" href="images/ico/jack-frost.ico">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main-skelet.css">
+        <link rel="stylesheet" href="css/vsrg.css">
+        <title>Megami Step Mania</title> 
+</head>
+<body> <div class="header shadow">
+        <h3>My Megami Website</h3>
+        <h4>O2JAM</h4>
+    </div>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <img src="/images/png/jack-frost.png" id="jack_frost" alt="jack-frost">
+        <a class="navbar-brand mb-0 h1 disabled">Megami Web Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link font">Home
+                    <span class="sr-only">(curent)</span>
+                </a>
+                <a href="about.html" class="nav-item nav-link font">Om mig</a>
+                <a href="js.html" class="nav-item nav-link font">Java script</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle font" href="list.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Uppgifter </a>
+                    <div class="dropdown-menu">
+                        <a href="list.html" class="dropdown-item">List</a>
+                        <a href="table.html" class="dropdown-item">Table</a>
+                        <a href="uppgift6.html" class="dropdown-item">layout med CSS</a>
+                        <a href="z_index.html" class="dropdown-item">z_index</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle font" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Project </a>
+                    <div class="dropdown-menu">
+                        <a href="main_anonnser.html" class="dropdown-item">Ryu Ga Gokotu</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle font" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        VRSG</a>
+                    <div class="dropdown-menu">
+                        <a href="iidx.html" class="dropdown-item">IIDX/LR</a>
+                        <a href="o2jam.html" class="dropdown-item">O2JAM</a>
+                        <a href="stepmania.html" class="dropdown-item">StepMania</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-row">
+    <h1 class="blue">What is StepMania</h1>
+        <div class="ddr">
+            <p><b>StepMania</b> is a cross-platform rhythm video game and engine. It was originally developed as a simulator of Konami's arcade game series Dance Dance Revolution, and has since evolved into an extensible rhythm game engine capable of supporting a variety of rhythm-based game types. Released under the MIT License, StepMania is open source free software.</p>
+            
+            <video src="video/mp4/StepMania.mp4" loop muted autoplay class="vid"></video>
+
+            <h1 class="blue">Gameplay</h1>
+            <p>The primary game type features the following game play: as arrows scroll upwards on the screen, they meet a normally stationary set of target arrows. When they do, the player presses the corresponding arrows on their keyboard or dance mat. The moving arrows meet the targets based on the beat of the song. The game is scored based upon how accurately the player can trigger the arrows in time to the beat of the song. The player's efforts are awarded by letter grades and a number score that tell him/her how well they have done. An award of AAAA (quadruple A) is the highest possible award available on a standard installation and indicates that a player has triggered all arrows with "Flawless" timing (within 0.0225 seconds under official settings) and avoided all mines and completed all hold (freeze) arrows. An E indicates failure for a player to survive the length of the song without completely draining their life bar. Default scoring and grading for StepMania is similar to scoring in Dance Dance Revolution; however, timing and scoring settings can easily be changed.</p>
+            <p>StepMania allows for several input options. Specialized adapters that connect console peripherals like PS2 and Xbox controllers or dance pads to one's computer can be used. Alternatively, the keyboard can be used to tap out the rhythms using arrow or other keys. Many song charts designed for keyboard are unable to be passed using a pad. In addition, the game possesses the capability to emulate other music games, such as <a href="iidx.html">Beatmania</a> itself, <a href="o2jam.html">o2Jam</a> and DJMAX's 7-key arrangement, Pump It Up and Techno Motion - scoring however, remains identical to DDR-style play by default.</p>
+
+            <h1 class="blue">Downloads</h1>
+
+            <a href="https://github.com/stepmania/stepmania/releases/download/v5.0.12/StepMania-5.0.12-win32.exe" class="btn btn-dark btn-primary btn-lg btn_dw " role="button"  target="_blank">StepMania 5.0.12 (Windows)<small> ~ 49 MB</small></a>
+            <br>
+           <a href="https://github.com/stepmania/stepmania/releases/download/v5.0.12/StepMania-5.0.12-mac.dmg" class="btn btn-dark btn-primary btn-lg btn_dw " role="button"  target="_blank">StepMania 5.0.12 (Mac)<small> ~ 56 MB</small></a>
+           <br>
+           <a href="https://github.com/etternagame/etterna/releases/download/v0.60.0/Etterna-0.60.0.exe" class="btn btn-dark btn-primary btn-lg btn_dw " role="button"  target="_blank">Etterna-0.60.0 <small> ~ 29 MB</small></a>
+
+        </div>
+        
+        
+
+
+    </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>
