@@ -7,7 +7,7 @@ var x = setInterval(function () {
     var minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
     var seconds = Math.floor((distance % (1000*60)) / 1000);
     document.getElementById("cd").innerHTML = days + "d" + hours + "h" + minutes + "m" + seconds + "s";
-    if (disntace < 0) {
+    if (distance < 0) {
         clearInterval(x);
         document.getElementById("cd").innerHTML = "expired"
         
