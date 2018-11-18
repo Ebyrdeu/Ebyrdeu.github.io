@@ -5,7 +5,7 @@ li {
     text-decoration: none;
 }
 #img {
-    width: 465px !important;
+    width: 450px;
     padding-bottom: 20px 
 }
 .list_gold {
@@ -32,4 +32,17 @@ li {
 .btn-steam {
     background: linear-gradient(120deg, #000046, #1cb5e0);
     color: white;
+}
+
+@media only screen and (max-height: 600px){
+    #img{
+    width:100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    #img{
+        width:100% !important;
+    }
 }

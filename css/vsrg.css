@@ -18,7 +18,7 @@
     border: solid 1.5px #333;
 }
 .big {
-    width: 805px !important;
+    width:100%;
 }
 .navi{
     float: left;
@@ -45,4 +45,18 @@ li{
 }
 p{
     color: white;
+}
+
+
+@media only screen and (max-height: 800px){
+    img,video{
+    width:100%;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    img,video{
+        width:100%;
+    }
 }
