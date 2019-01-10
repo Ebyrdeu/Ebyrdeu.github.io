@@ -17,6 +17,12 @@
 .omimg {
     border: solid 1.5px #333;
 }
+.small { 
+    width: 10%
+}
+.small_r{
+    width: 40%
+}
 .big {
     width:100%;
 }
