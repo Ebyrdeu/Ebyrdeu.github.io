@@ -34,7 +34,7 @@
     width: 100%;
 }
 
-.navi {
+.nav {
     float: left;
     padding: 1px;
     margin: 5px;
@@ -68,18 +68,14 @@ p {
 
 
 @media only screen and (max-height: 800px) {
-
-    img,
-    video {
+    img,video {
         width: 100%;
     }
 }
 
 
 @media only screen and (max-width: 800px) {
-
-    img,
-    video {
+    img,video {
         width: 100%;
     }
 }

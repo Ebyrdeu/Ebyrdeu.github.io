@@ -9,22 +9,18 @@
     <meta name="author" content="Maxim Khnykin">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <link rel="shortcut icon" href="images/ico/jack-frost.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main-skelet.css">
     <link rel="stylesheet" href="css/vsrg.css">
     <title>Step Mania</title>
 </head>
 
 <body>
-    <div class="header shadow">
+    <header class="header shadow">
         <h3>Website</h3>
         <h4>O2JAM</h4>
-    </div>
+    </header>
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
         <img src="/images/png/jack-frost.png" id="jack_frost" alt="jack-frost">
@@ -41,29 +37,24 @@
                 <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle font" href="#" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
-                        VRSG</a>
+                        VSRG</a>
                     <div class="dropdown-menu">
                         <a href="iidx.html" class="dropdown-item">IIDX/LR</a>
                         <a href="o2jam.html" class="dropdown-item">O2JAM</a>
                         <a href="stepmania.html" class="dropdown-item">StepMania</a>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </nav>
-
-    <div class="container-row">
+    <main class="container-row">
         <h1 class="blue">What is StepMania</h1>
-        <div class="ddr">
+        <section class="ddr">
             <p><b>StepMania</b> is a cross-platform rhythm video game and engine. It was originally developed as a
                 simulator of Konami's arcade game series Dance Dance Revolution, and has since evolved into an
                 extensible rhythm game engine capable of supporting a variety of rhythm-based game types. Released
                 under the MIT License, StepMania is open source free software.</p>
-
             <video src="video/mp4/StepMania.mp4" loop muted autoplay class="vid"></video>
-
             <h1 class="blue">Gameplay</h1>
             <p>The primary game type features the following game play: as arrows scroll upwards on the screen, they
                 meet a normally stationary set of target arrows. When they do, the player presses the corresponding
@@ -94,23 +85,11 @@
             <br>
             <a href="https://github.com/etternagame/etterna/releases/download/v0.60.0/Etterna-0.60.0.exe" class="btn btn-dark btn-primary btn-lg btn_dw "
                 role="button" target="_blank">Etterna-0.60.0 <small> ~ 29 MB</small></a>
+        </section>
+    </main>
 
-        </div>
-
-
-
-
-    </div>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"crossorigin="anonymous"></script>
 </body>
-
 </html>
